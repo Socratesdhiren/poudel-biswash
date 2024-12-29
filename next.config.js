@@ -1,16 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/poudel-biswash",
+  output: "export", // Ensures a static export
+  basePath: "/poudel-biswash", // Use your repository name
   images: {
-    unoptimized: true,
-    domains: ["localhost"],
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "cdn.sanity.io",
-        port: "",
-      },
-    ],
+    unoptimized: true, // Disable image optimization for GitHub Pages
   },
 };
 
