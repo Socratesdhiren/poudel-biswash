@@ -19,7 +19,7 @@ const Blog = () => {
           {serviceData.map((service) => (
             <div
               key={service.id}
-              style={{ margin: "12px 0" }}
+              style={{ margin: "8px 0" }}
               className="w-full"
             >
               <SingleBlog service={service} />
