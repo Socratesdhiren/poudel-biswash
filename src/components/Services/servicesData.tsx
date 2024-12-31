@@ -2,7 +2,7 @@ import { Service } from "@/types/service";
 
 const serviceData: Service[] = [
   {
-    id: 41,
+    id: "house",
     title: "House cleaning",
     paragraph:
       "We provide thorough house cleaning services to maintain a clean, safe, and welcoming environment for your home. From regular cleaning to deep cleaning, we've got you covered.",
@@ -17,7 +17,7 @@ const serviceData: Service[] = [
     publishDate: "2024",
   },
   {
-    id: 42,
+    id: "office",
     title: "Office & Commercial cleaning ",
     paragraph:
       "Our office and commercial cleaning services ensure your workspace is spotless and productive. We specialize in cleaning offices, commercial buildings, and facilities.",
@@ -31,7 +31,7 @@ const serviceData: Service[] = [
     publishDate: "2024",
   },
   {
-    id: 43,
+    id: "commercial",
     title: "Commercial floor cleaning",
     paragraph:
       "Our commercial floor cleaning services ensure that your floors remain clean and well-maintained, enhancing the appearance of your business environment.",
@@ -45,9 +45,8 @@ const serviceData: Service[] = [
     tags: ["floor", "commercial"],
     publishDate: "2024",
   },
-
   {
-    id: 44,
+    id: "outdoor",
     title: "Outdoor cleaning",
     paragraph:
       "We offer professional outdoor cleaning services, including pressure washing, exterior building cleaning, and more, ensuring your property looks its best.",
@@ -61,7 +60,7 @@ const serviceData: Service[] = [
     publishDate: "2024",
   },
   {
-    id: 45,
+    id: "retail",
     title: "Retail cleaning",
     paragraph:
       "Our retail cleaning services are designed to keep your store spotless, creating a pleasant shopping experience for your customers and a clean environment for your staff.",
@@ -76,7 +75,7 @@ const serviceData: Service[] = [
     publishDate: "2024",
   },
   {
-    id: 46,
+    id: "hotel",
     title: "Hotel cleaning ",
     paragraph:
       "We provide hotel cleaning services that ensure your guests experience cleanliness and comfort throughout their stay, from guest rooms to common areas.",
@@ -91,7 +90,7 @@ const serviceData: Service[] = [
     publishDate: "2024",
   },
   {
-    id: 47,
+    id: "restaurant",
     title: "Restaurant cleaning ",
     paragraph:
       "Our restaurant cleaning services guarantee a hygienic and inviting environment, ensuring your patrons enjoy their dining experience in a clean space.",

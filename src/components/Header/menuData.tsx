@@ -16,7 +16,7 @@ const menuData: Menu[] = [
       {
         id: 41,
         title: "House cleaning services",
-        path: "/services",
+        path: "/services/",
         newTab: false,
       },
       {

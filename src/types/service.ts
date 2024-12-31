@@ -5,11 +5,18 @@ type Author = {
 };
 
 export type Service = {
-  id: number;
+  id: string;
   title: string;
   paragraph: string;
   image: string;
   author: Author;
   tags: string[];
   publishDate: string;
+};
+
+export type ServiceDetail = {
+  id: string;
+  title: string;
+  paragraph: string;
+  image: string;
 };
