@@ -14,7 +14,7 @@ const serviceData: Service[] = [
       designation: "Cleaning Experts",
     },
     tags: ["residential", "cleaning"],
-    publishDate: "2024",
+    publishDate: "Dec 13, 2024",
   },
   {
     id: "office",
@@ -28,7 +28,7 @@ const serviceData: Service[] = [
       designation: "Cleaning Experts",
     },
     tags: ["commercial", "office"],
-    publishDate: "2024",
+    publishDate: "Dec 13, 2024",
   },
   {
     id: "commercial",
@@ -43,7 +43,7 @@ const serviceData: Service[] = [
       designation: "Cleaning Experts",
     },
     tags: ["floor", "commercial"],
-    publishDate: "2024",
+    publishDate: "Dec 13, 2024",
   },
   {
     id: "outdoor",
@@ -57,7 +57,7 @@ const serviceData: Service[] = [
       designation: "Cleaning Experts",
     },
     tags: ["outdoor", "cleaning"],
-    publishDate: "2024",
+    publishDate: "Dec 13, 2024",
   },
   {
     id: "retail",
@@ -72,7 +72,7 @@ const serviceData: Service[] = [
       designation: "Cleaning Experts",
     },
     tags: ["retail", "cleaning"],
-    publishDate: "2024",
+    publishDate: "Dec 13, 2024",
   },
   {
     id: "hotel",
@@ -87,7 +87,7 @@ const serviceData: Service[] = [
       designation: "Cleaning Experts",
     },
     tags: ["hotel", "cleaning"],
-    publishDate: "2024",
+    publishDate: "Dec 13, 2024",
   },
   {
     id: "restaurant",
@@ -102,7 +102,7 @@ const serviceData: Service[] = [
       designation: "Cleaning Experts",
     },
     tags: ["restaurant", "cleaning"],
-    publishDate: "2024",
+    publishDate: "Dec 13, 2024",
   },
 ];
 

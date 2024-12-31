@@ -38,7 +38,21 @@ const Footer = () => {
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
                   Your Trusted Partner for Comprehensive Cleaning Services
                 </p>
-                <div className="flex items-center">
+                <div className="mb-2 flex flex-col">
+                  <a
+                    href="mailto:sales@bmstart.com.au"
+                    className="text-body-color dark:text-body-color-dark"
+                  >
+                    Email: sales@bmstart.com.au
+                  </a>
+                  <a
+                    href="tel:0290585522"
+                    className="text-body-color dark:text-body-color-dark"
+                  >
+                    Call Us: (61) 45255 1039
+                  </a>
+                </div>
+                <div className="flex items-center ">
                   <a
                     href="/"
                     aria-label="social-link"
@@ -124,7 +138,7 @@ const Footer = () => {
                 <ul>
                   <li>
                     <Link
-                      href="/"
+                      href="/tos"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       TOS
@@ -132,7 +146,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/privacy"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Privacy Policy

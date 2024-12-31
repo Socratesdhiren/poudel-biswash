@@ -19,4 +19,7 @@ export type ServiceDetail = {
   title: string;
   paragraph: string;
   image: string;
+  description: string;
+  words: string;
+  conclusion?: string;
 };

@@ -49,8 +49,6 @@ const Video = () => {
                     autoPlay
                     muted
                     loop={true}
-                    // width="640"
-                    // height="360"
                     style={{ maxWidth: "100%" }}
                   >
                     <source src="/videos/floor.mp4" type="video/mp4" />
