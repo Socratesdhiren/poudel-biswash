@@ -15,7 +15,7 @@ const Video = () => {
       <div className="container">
         <SectionTitle
           title="We are ready to help"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="BMStart likely positions itself as a reliable and approachable partner, ready to assist customers in achieving their goals, whether through services, products, or guidance."
           center
           mb="80px"
         />
