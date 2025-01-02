@@ -46,7 +46,7 @@ const Footer = () => {
                     Email: sales@bmstart.com.au
                   </a>
                   <a
-                    href="tel:0290585522"
+                    href="tel:61452551039"
                     className="text-body-color dark:text-body-color-dark"
                   >
                     Call Us: (61) 45255 1039
