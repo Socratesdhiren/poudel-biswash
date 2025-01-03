@@ -5,9 +5,16 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Page | Free Next.js Template for Startup and SaaS",
-  description: "This is About Page for Startup Nextjs Template",
-  // other metadata
+  title: "About Us - BM Start",
+  description:
+    "Learn more about BM Start and our professional cleaning services.",
+  openGraph: {
+    title: "About BM Start",
+    description:
+      "Discover our journey and mission to provide the best cleaning services.",
+    url: "https://bmstart.com/about",
+    images: [{ url: "https://bmstart.com/images/services/hotelabout-01.jpg" }],
+  },
 };
 
 const AboutPage = () => {

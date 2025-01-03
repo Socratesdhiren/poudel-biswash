@@ -5,9 +5,16 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Services",
-  description: "BM start service page",
-  // other metadata
+  title: "Services - BM Start",
+  description:
+    "Learn more services of BM Start and our professional cleaning services.",
+  openGraph: {
+    title: "Services BM Start",
+    description:
+      "Discover our journey and mission to provide the best cleaning services.",
+    url: "https://bmstart.com/services",
+    images: [{ url: "https://bmstart.com/images/services/home-01.jpg" }],
+  },
 };
 
 const Services = () => {
@@ -18,7 +25,7 @@ const Services = () => {
         description="At BM Start, we specialize in delivering professional cleaning services that ensure pristine spaces for homes, businesses, and public areas."
       />
 
-      <section className="pb-[120px] pt-[120px]">
+      <section className="pb-[120px] pt-[180px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap justify-center">
             {serviceData.map((service) => (

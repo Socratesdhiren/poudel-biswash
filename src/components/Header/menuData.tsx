@@ -9,8 +9,14 @@ const menuData: Menu[] = [
     newTab: false,
   },
   {
+    id: 99,
+    title: "Hygiene",
+    newTab: false,
+    path: "/hygiene",
+  },
+  {
     id: 4,
-    title: "Services",
+    title: "Cleaning",
     newTab: false,
     submenu: [
       {
@@ -59,21 +65,16 @@ const menuData: Menu[] = [
   },
 
   {
-    id: 2,
-    title: "About",
-    path: "/about",
+    id: 3,
+    title: "Labour Hire Services",
+    path: "/contact",
     newTab: false,
   },
-  // {
-  //   id: 33,
-  //   title: "Blog",
-  //   path: "/blog",
-  //   newTab: false,
-  // },
+
   {
-    id: 3,
-    title: "Support",
-    path: "/contact",
+    id: 2,
+    title: "About us",
+    path: "/about",
     newTab: false,
   },
   // {

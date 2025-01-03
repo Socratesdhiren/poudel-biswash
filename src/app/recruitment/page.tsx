@@ -4,13 +4,11 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Laundry - BM Start",
-  description:
-    "Learn more about BM Start and our professional cleaning services.",
+  title: "Recruitment - BM Start",
+  description: "Learn more on recruitment service on Australia by  BM Start",
   openGraph: {
-    title: "Laundry BM Start",
-    description:
-      "Discover our journey and mission to provide the best cleaning services.",
+    title: "Recruitment BM Start",
+    description: "Labour hire on Australia by BM Start",
     url: "https://bmstart.com/about",
     images: [{ url: "https://bmstart.com/images/services/hotelabout-01.jpg" }],
   },
