@@ -2,6 +2,7 @@ import AboutSectionOne from "@/components/About/AboutSectionOne";
 // import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 // import Blog from "@/components/Blog";
 import Services from "@/components/Services";
+import Hygiene from "@/components/Hygiene";
 
 // import Brands from "@/components/Brands";
 import ScrollUp from "@/components/Common/ScrollUp";
@@ -37,6 +38,7 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Services />
+      <Hygiene />
       <Features />
       <Video />
       {/* <Brands /> */}

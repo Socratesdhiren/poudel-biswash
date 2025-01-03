@@ -10,7 +10,7 @@ const Blog = () => {
     >
       <div className="container">
         <SectionTitle
-          title="Our services"
+          title="Cleaning services"
           paragraph="Our mission at BM Start is to provide exceptional cleaning services that enhance the quality of living and working spaces. Whether it's your home, office, or commercial property, we offer reliable and tailored solutions to meet your needs."
           center
         />

@@ -1,9 +1,17 @@
+import SectionTitle from "../Common/SectionTitle";
 import NewsLatterBox from "./NewsLatterBox";
 
 const Contact = () => {
   return (
-    <section id="contact" className="overflow-hidden py-20 md:py-28 lg:py-32">
+    <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
       <div className="container">
+        <SectionTitle
+          title="Labour Hire Services in Australia by BM Start"
+          paragraph="BM Start provides reliable labour hire services across Australia, connecting businesses with skilled professionals to ensure smooth and efficient operations. From temporary staffing for seasonal demands to permanent workforce solutions, we offer tailored services with vetted and trained workers to meet your unique needs, allowing you to focus on your core business."
+          center
+          width="800px"
+        />
+
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 lg:w-7/12 xl:w-8/12">
             <div
@@ -78,7 +86,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="w-full px-4 lg:w-5/12 xl:w-4/12">
-            {/* <NewsLatterBox /> */}
+            <NewsLatterBox />
           </div>
         </div>
       </div>

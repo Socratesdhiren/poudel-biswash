@@ -67,7 +67,7 @@ const menuData: Menu[] = [
   {
     id: 3,
     title: "Labour Hire Services",
-    path: "/contact",
+    path: "/hire",
     newTab: false,
   },
 

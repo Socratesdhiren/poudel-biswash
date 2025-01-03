@@ -8,9 +8,9 @@ const Features = () => {
       <section id="features" className="py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="Why Choose Us"
             center
+            paragraph="BM Start is a trusted leader in maintaining hygienic environments through a wide range of professional cleaning services and high-quality cleaning material supplies."
           />
 
           <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">

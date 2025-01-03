@@ -1,7 +1,6 @@
-import Breadcrumb from "@/components/Common/Breadcrumb";
-import Contact from "@/components/Contact";
-
 import { Metadata } from "next";
+
+import Hygiene from "@/components/Hygiene";
 
 export const metadata: Metadata = {
   title: "Hygiene - BM Start",
@@ -19,12 +18,9 @@ export const metadata: Metadata = {
 const ContactPage = () => {
   return (
     <>
-      <Breadcrumb
-        pageName="Contact Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
-      />
-
-      <Contact />
+      <section className="pb-[120px] pt-[120px]">
+        <Hygiene />
+      </section>
     </>
   );
 };

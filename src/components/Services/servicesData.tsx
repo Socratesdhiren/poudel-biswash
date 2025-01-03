@@ -30,21 +30,21 @@ const serviceData: Service[] = [
     tags: ["commercial", "office"],
     publishDate: "Dec 13, 2024",
   },
-  {
-    id: "commercial",
-    title: "Commercial floor cleaning",
-    paragraph:
-      "Our commercial floor cleaning services ensure that your floors remain clean and well-maintained, enhancing the appearance of your business environment.",
-    image: "/images/blog/blog-01.jpg",
-    author: {
-      name: "BM Start Team",
-      image: "/images/blog/author-01.png",
+  // {
+  //   id: "commercial",
+  //   title: "Commercial floor cleaning",
+  //   paragraph:
+  //     "Our commercial floor cleaning services ensure that your floors remain clean and well-maintained, enhancing the appearance of your business environment.",
+  //   image: "/images/blog/blog-01.jpg",
+  //   author: {
+  //     name: "BM Start Team",
+  //     image: "/images/blog/author-01.png",
 
-      designation: "Cleaning Experts",
-    },
-    tags: ["floor", "commercial"],
-    publishDate: "Dec 13, 2024",
-  },
+  //     designation: "Cleaning Experts",
+  //   },
+  //   tags: ["floor", "commercial"],
+  //   publishDate: "Dec 13, 2024",
+  // },
   {
     id: "outdoor",
     title: "Outdoor cleaning",

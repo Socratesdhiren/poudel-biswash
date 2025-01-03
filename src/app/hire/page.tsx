@@ -1,5 +1,5 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
-import Contact from "@/components/Contact";
+import Contact from "@/components/Hire";
 
 import { Metadata } from "next";
 
@@ -16,18 +16,12 @@ export const metadata: Metadata = {
   },
 };
 
-const ContactPage = () => {
+const HirePage = () => {
   return (
-    <>
-      <Breadcrumb
-        pageName="Contact Page"
-        description="Get in touch today and let us help you create a cleaner, safer space!"
-        desc_info="We’d love to hear from you! Whether you have questions about our services, need a quote, or want to provide feedback, feel free to reach out. Our team is here to assist you."
-      />
-
+    <section className="pb-[120px] pt-[120px]">
       <Contact />
-    </>
+    </section>
   );
 };
 
-export default ContactPage;
+export default HirePage;

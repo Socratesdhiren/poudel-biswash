@@ -26,7 +26,6 @@ const AboutPage = () => {
         desc_info="Let BM Start transform your space with exceptional cleaning services that you can trust."
       />
       <AboutSectionOne />
-      {/* <AboutSectionTwo /> */}
     </>
   );
 };
