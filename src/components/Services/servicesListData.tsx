@@ -63,7 +63,7 @@ const serviceListData: ServiceDetail[] = [
       "BM Start delivers exceptional retail cleaning services to create a spotless shopping environment that delights customers and staff alike. We understand the unique needs of retail spaces and offer reliable, high-quality solutions tailored to your store. Our team’s dedication to safety, cleanliness, and efficiency makes us the preferred choice for businesses across the country. Elevate your retail space with BM Start.",
   },
   {
-    id: "hotel",
+    id: "industry",
     title: "Hotel cleaning ",
     paragraph:
       "We provide hotel cleaning services that ensure your guests experience cleanliness and comfort throughout their stay, from guest rooms to common areas.",
@@ -85,6 +85,65 @@ const serviceListData: ServiceDetail[] = [
       "BM Start guarantees restaurant cleanliness that meets the highest standards. With reliable service, innovative solutions, and a dedication to safety, we create spaces where food and hygiene go hand in hand. Count on BM Start for a spotless dining environment.",
     description:
       "BM Start is the name you can trust for restaurant cleaning services that ensure hygiene, safety, and a welcoming dining experience. Our reliable team uses cutting-edge techniques to clean kitchens, dining areas, and more, keeping your restaurant spotless and compliant with health regulations. With high ratings and a commitment to excellence, BM Start provides integrated solutions that cater to your every need.",
+  },
+
+  {
+    id: "strata",
+    title: "Strata cleaning service ",
+    paragraph:
+      "Our restaurant cleaning services guarantee a hygienic and inviting environment, ensuring your patrons enjoy their dining experience in a clean space.",
+    image: "/images/details/restaurant-01.jpg",
+    words: `"Where cleanliness meets cuisine, BM Start creates dining delight."`,
+    conclusion:
+      "BM Start guarantees restaurant cleanliness that meets the highest standards. With reliable service, innovative solutions, and a dedication to safety, we create spaces where food and hygiene go hand in hand. Count on BM Start for a spotless dining environment.",
+    description:
+      "BM Start is the name you can trust for restaurant cleaning services that ensure hygiene, safety, and a welcoming dining experience. Our reliable team uses cutting-edge techniques to clean kitchens, dining areas, and more, keeping your restaurant spotless and compliant with health regulations. With high ratings and a commitment to excellence, BM Start provides integrated solutions that cater to your every need.",
+  },
+
+  {
+    id: "commonArea",
+    title: "Regular common area cleaning",
+    paragraph:
+      "Regular common area cleaning ensures shared spaces like lobbies, hallways, and stairwells remain clean, hygienic, and inviting for residents and visitors.",
+    image: "/images/strata/area-01.jpg",
+  },
+  {
+    id: "hardFloor",
+    title: "Hard floor maintenance",
+    paragraph:
+      "Hard floor maintenance keeps floors clean, polished, and durable while ensuring safety.",
+    image: "/images/strata/floor-01.jpg",
+  },
+
+  {
+    id: "foyer",
+    title: "Overall foyer cleaning",
+    paragraph:
+      "Overall foyer cleaning ensures a spotless, welcoming entrance by maintaining cleanliness and tidiness in high-traffic areas.",
+    image: "/images/strata/foyer-01.jpg",
+  },
+  {
+    id: "lift",
+    title: "Lift cleaning",
+    paragraph:
+      "Lift cleaning ensures elevators remain hygienic, spotless, and safe, providing a pleasant experience for all users.",
+    image: "/images/strata/lift-01.jpg",
+  },
+
+  {
+    id: "glass",
+    title: "Glass cleaning",
+    paragraph:
+      "We offer professional outdoor cleaning services, including pressure washing, exterior building cleaning, and more, ensuring your property looks its best.",
+    image: "/images/strata/glass-01.jpg",
+  },
+
+  {
+    id: "staircase",
+    title: "Staircase cleaning ",
+    paragraph:
+      "Staircase cleaning keeps stairs spotless, safe, and hygienic, enhancing the overall appeal and safety of shared spaces.",
+    image: "/images/strata/staircase-01.jpg",
   },
 ];
 

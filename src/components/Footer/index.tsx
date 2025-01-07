@@ -40,10 +40,10 @@ const Footer = () => {
                 </p>
                 <div className="mb-2 flex flex-col">
                   <a
-                    href="mailto:sales@bmstart.com.au"
+                    href="mailto:info@bmstart.com.au"
                     className="text-body-color dark:text-body-color-dark"
                   >
-                    Email: sales@bmstart.com.au
+                    Email: info@bmstart.com.au
                   </a>
                   <a
                     href="tel:61452551039"

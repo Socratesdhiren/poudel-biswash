@@ -30,21 +30,7 @@ const serviceData: Service[] = [
     tags: ["commercial", "office"],
     publishDate: "Dec 13, 2024",
   },
-  // {
-  //   id: "commercial",
-  //   title: "Commercial floor cleaning",
-  //   paragraph:
-  //     "Our commercial floor cleaning services ensure that your floors remain clean and well-maintained, enhancing the appearance of your business environment.",
-  //   image: "/images/blog/blog-01.jpg",
-  //   author: {
-  //     name: "BM Start Team",
-  //     image: "/images/blog/author-01.png",
 
-  //     designation: "Cleaning Experts",
-  //   },
-  //   tags: ["floor", "commercial"],
-  //   publishDate: "Dec 13, 2024",
-  // },
   {
     id: "outdoor",
     title: "Outdoor cleaning",
@@ -74,21 +60,22 @@ const serviceData: Service[] = [
     tags: ["retail", "cleaning"],
     publishDate: "Dec 13, 2024",
   },
-  {
-    id: "hotel",
-    title: "Hotel cleaning ",
-    paragraph:
-      "We provide hotel cleaning services that ensure your guests experience cleanliness and comfort throughout their stay, from guest rooms to common areas.",
-    image: "/images/blog/hotel-02.jpg",
 
+  {
+    id: "industry",
+    title: "Industry cleaning",
+    paragraph:
+      "We offer professional outdoor cleaning services, including pressure washing, exterior building cleaning, and more, ensuring your property looks its best.",
+    image: "/images/blog/outdoor-04.jpg",
     author: {
       name: "BM Start Team",
       image: "/images/blog/author-02.png",
       designation: "Cleaning Experts",
     },
-    tags: ["hotel", "cleaning"],
+    tags: ["outdoor", "cleaning"],
     publishDate: "Dec 13, 2024",
   },
+
   {
     id: "restaurant",
     title: "Restaurant cleaning ",

@@ -7,7 +7,7 @@ const SingleBlog = ({ service }: { service: Service }) => {
   const { id, title, image, paragraph, author, tags, publishDate } = service;
   return (
     <>
-      <div className="group relative overflow-hidden rounded-sm bg-white shadow-one duration-300 hover:shadow-two dark:bg-dark dark:hover:shadow-gray-dark">
+      <div className="group relative h-auto overflow-hidden rounded-sm bg-white shadow-one duration-300 hover:shadow-two dark:bg-dark dark:hover:shadow-gray-dark">
         <Link
           href={`/services/${id}`}
           className="relative block aspect-[37/22] w-full"

@@ -8,12 +8,7 @@ const menuData: Menu[] = [
     path: "/",
     newTab: false,
   },
-  {
-    id: 99,
-    title: "Hygiene",
-    newTab: false,
-    path: "/hygiene",
-  },
+
   {
     id: 4,
     title: "Cleaning",
@@ -21,44 +16,44 @@ const menuData: Menu[] = [
     submenu: [
       {
         id: 41,
-        title: "House cleaning services",
+        title: "House cleaning",
         path: "/services/house",
         newTab: false,
       },
       {
         id: 42,
-        title: "Office & Commercial cleaning services",
+        title: "Office & Commercial cleaning",
         path: "/services/office",
         newTab: false,
       },
       {
-        id: 43,
-        title: "Commercial floor cleaning",
-        path: "/services/commercial",
-        newTab: false,
-      },
-      {
         id: 44,
-        title: "Outdoor cleaning services",
+        title: "Outdoor cleaning",
         path: "/services/outdoor",
         newTab: false,
       },
       {
         id: 45,
-        title: "Retail cleaning services",
+        title: "Retail cleaning",
         path: "/services/retail",
         newTab: false,
       },
       {
         id: 46,
-        title: "Hotel clearing services",
-        path: "/services/hotel",
+        title: "Industry cleaning",
+        path: "/services/industry",
         newTab: false,
       },
       {
         id: 47,
-        title: "Restaurant cleaning services",
+        title: "Restaurant cleaning",
         path: "/services/restaurant",
+        newTab: false,
+      },
+      {
+        id: 48,
+        title: "Strata cleaning",
+        path: "/strata",
         newTab: false,
       },
     ],
@@ -69,6 +64,13 @@ const menuData: Menu[] = [
     title: "Labour Hire Services",
     path: "/hire",
     newTab: false,
+  },
+
+  {
+    id: 99,
+    title: "Supplies",
+    newTab: false,
+    path: "/hygiene",
   },
 
   {
