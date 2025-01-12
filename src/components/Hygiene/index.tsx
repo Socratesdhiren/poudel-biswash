@@ -23,7 +23,7 @@ const Contact = () => {
                   autoPlay
                   muted
                   loop={true}
-                  style={{ maxWidth: "100%" }}
+                  style={{ maxWidth: "100%", borderRadius: "6px" }}
                 >
                   <source src="/videos/hygiene.mp4" type="video/mp4" />
                   Your browser does not support the video tag.

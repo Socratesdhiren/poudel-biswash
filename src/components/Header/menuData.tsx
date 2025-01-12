@@ -56,6 +56,12 @@ const menuData: Menu[] = [
         path: "/strata",
         newTab: false,
       },
+      {
+        id: 49,
+        title: "Roofing",
+        path: "/roofing",
+        newTab: false,
+      },
     ],
   },
 

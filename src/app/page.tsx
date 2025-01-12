@@ -1,5 +1,5 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
-// import AboutSectionTwo from "@/components/About/AboutSectionTwo";
+import RoofingDetails from "@/components/Roofing/RoofingDetails";
 // import Blog from "@/components/Blog";
 import Services from "@/components/Services";
 import Hygiene from "@/components/Hygiene";
@@ -39,6 +39,7 @@ export default function Home() {
       <Hero />
       <Services />
       <Hygiene />
+      <RoofingDetails />
       <Features />
       <Video />
       {/* <Brands /> */}
