@@ -60,8 +60,8 @@ const RoofingDetails = () => {
                   Proactive Maintenance
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Regular inspections and upkeep to extend your roof's lifespan
-                  and ensure optimal performance.
+                  Regular inspections and upkeep to extend your roof&apos;s
+                  lifespan and ensure optimal performance.
                 </p>
               </div>
             </div>
