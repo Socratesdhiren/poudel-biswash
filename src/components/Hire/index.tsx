@@ -10,19 +10,16 @@ const Contact = () => {
   });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    console.log(e.target.name, "<--name ---vlaue ->>", e.target.value);
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log(formData, "formDAta");
-    const response = await fetch("/api/submit", {
+    await fetch("/api/submit", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData),
     });
-    console.log(response, "response");
 
     setFormData({
       name: "",

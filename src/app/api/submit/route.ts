@@ -1,7 +1,6 @@
 // app/api/submit/route.ts
 import { NextResponse } from "next/server";
 import { google } from "googleapis";
-// import { JWT } from "google-auth-library";
 
 // Your Google Sheets ID and range
 const RANGE = "Sheet1!A:D";
@@ -9,8 +8,6 @@ const SHEET_ID = process.env.GOOGLE_SHEET_ID;
 
 export async function POST(req: Request) {
   const { name, email, description } = await req.json();
-
-  console.log(req?.json(), "req json");
 
   try {
     // Authenticate with Google

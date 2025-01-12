@@ -10,6 +10,14 @@ const nextConfig = {
       },
     ],
   },
+  async rewrites() {
+    return [
+      {
+        source: "/api/submit",
+        destination: "/api/submit", // Ensure no conflict
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;
