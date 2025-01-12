@@ -262,8 +262,8 @@ const Header = () => {
                       width="1.2em"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         strokeWidth="2"
                         d="M21 12.79V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7.79l-7-5-7 5z"
                       />

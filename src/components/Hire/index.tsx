@@ -1,17 +1,41 @@
-import SectionTitle from "../Common/SectionTitle";
+"use client";
+import { useState } from "react";
 import NewsLatterBox from "./NewsLatterBox";
 
 const Contact = () => {
-  return (
-    <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
-      <div className="container">
-        <SectionTitle
-          title="Labour Hire Services in Australia by BM Start"
-          paragraph="BM Start provides reliable labour hire services across Australia, connecting businesses with skilled professionals to ensure smooth and efficient operations. From temporary staffing for seasonal demands to permanent workforce solutions, we offer tailored services with vetted and trained workers to meet your unique needs, allowing you to focus on your core business."
-          center
-          width="800px"
-        />
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    description: "",
+  });
 
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    console.log(e.target.name, "<--name ---vlaue ->>", e.target.value);
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    console.log(formData, "formDAta");
+    const response = await fetch("/api/submit", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData),
+    });
+    console.log(response, "response");
+
+    setFormData({
+      name: "",
+      email: "",
+      description: "",
+    });
+  };
+
+  console.log(formData, "formData");
+
+  return (
+    <section id="contact" className="overflow-hidden py-20 md:py-28 lg:py-32">
+      <div className="container">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 lg:w-7/12 xl:w-8/12">
             <div
@@ -25,7 +49,7 @@ const Contact = () => {
               <p className="mb-12 text-base font-medium text-body-color">
                 Our support team will get back to you ASAP via email.
               </p>
-              <form>
+              <form onSubmit={handleSubmit}>
                 <div className="-mx-4 flex flex-wrap">
                   <div className="w-full px-4 md:w-1/2">
                     <div className="mb-8">
@@ -37,7 +61,10 @@ const Contact = () => {
                       </label>
                       <input
                         type="text"
+                        name="name"
+                        value={formData?.name}
                         placeholder="Enter your name"
+                        onChange={handleChange}
                         className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                       />
                     </div>
@@ -52,6 +79,9 @@ const Contact = () => {
                       </label>
                       <input
                         type="email"
+                        name="email"
+                        value={formData?.email}
+                        onChange={handleChange}
                         placeholder="Enter your email"
                         className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                       />
@@ -60,22 +90,23 @@ const Contact = () => {
                   <div className="w-full px-4">
                     <div className="mb-8">
                       <label
-                        htmlFor="message"
+                        htmlFor="description"
                         className="mb-3 block text-sm font-medium text-dark dark:text-white"
                       >
                         Your Message
                       </label>
-                      <textarea
-                        name="message"
-                        rows={5}
+                      <input
+                        onChange={handleChange}
+                        name="description"
+                        value={formData?.description}
                         placeholder="Enter your Message"
                         className="border-stroke w-full resize-none rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
-                      ></textarea>
+                      ></input>
                     </div>
                   </div>
                   <div className="w-full px-4">
                     <button
-                      disabled
+                      type="submit"
                       className="rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
                     >
                       Submit Ticket
