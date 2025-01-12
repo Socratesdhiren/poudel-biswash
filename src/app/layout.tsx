@@ -42,7 +42,7 @@ export default function RootLayout({
           <Footer />
           <ScrollToTop />
         </Providers>
-        {process.env.NODE_ENV === "production" && (
+        {process.env.NEXT_PUBLIC_ENV === "production" && (
           <Script id="clarity-script" strategy="afterInteractive">
             {`
             (function(c,l,a,r,i,t,y){
