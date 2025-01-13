@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import NewsLatterBox from "./NewsLatterBox";
+// import NewsLatterBox from "./NewsLatterBox";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -10,19 +10,16 @@ const Contact = () => {
   });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    console.log(e.target.name, "<--name ---vlaue ->>", e.target.value);
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log(formData, "formDAta");
     const response = await fetch("/api/submit", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData),
     });
-    console.log(response, "response");
 
     setFormData({
       name: "",
@@ -30,8 +27,6 @@ const Contact = () => {
       description: "",
     });
   };
-
-  console.log(formData, "formData");
 
   return (
     <section id="contact" className="overflow-hidden py-20 md:py-28 lg:py-32">
@@ -44,7 +39,7 @@ const Contact = () => {
               "
             >
               <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
-                Need Help? Open a Ticket
+                Need Hire? Open a Ticket
               </h2>
               <p className="mb-12 text-base font-medium text-body-color">
                 Our support team will get back to you ASAP via email.
@@ -93,7 +88,7 @@ const Contact = () => {
                         htmlFor="description"
                         className="mb-3 block text-sm font-medium text-dark dark:text-white"
                       >
-                        Your Message
+                        Hire for
                       </label>
                       <input
                         onChange={handleChange}
@@ -116,9 +111,9 @@ const Contact = () => {
               </form>
             </div>
           </div>
-          <div className="w-full px-4 lg:w-5/12 xl:w-4/12">
+          {/* <div className="w-full px-4 lg:w-5/12 xl:w-4/12">
             <NewsLatterBox />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

@@ -1,5 +1,5 @@
-import Image from "next/image";
-import NewsLatterBox from "./NewsLatterBox";
+// import Image from "next/image";
+// import NewsLatterBox from "./NewsLatterBox";
 import SectionTitle from "../Common/SectionTitle";
 
 const Contact = () => {

@@ -56,13 +56,13 @@ const menuData: Menu[] = [
         path: "/strata",
         newTab: false,
       },
-      {
-        id: 49,
-        title: "Roofing",
-        path: "/roofing",
-        newTab: false,
-      },
     ],
+  },
+  {
+    id: 98,
+    title: "Roof Restoration",
+    path: "/roofing",
+    newTab: false,
   },
 
   {

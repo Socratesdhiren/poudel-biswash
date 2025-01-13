@@ -11,8 +11,8 @@ const RoofingDetails = () => {
       <div className="container">
         {pathname !== "/roofing" && (
           <SectionTitle
-            title="Roof Cleaning and Maintenance"
-            paragraph="Roof cleaning and maintenance by BM Start ensures your roof stays clean, durable, and free from water damage"
+            title="Roof Services"
+            paragraph="BM Start ensures best when it comes to  roof restoration, maintenance, tile repairs, and other roofing services"
             center
           />
         )}
@@ -39,6 +39,33 @@ const RoofingDetails = () => {
             <div className="max-w-[470px]">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                  Roof installation
+                </h3>
+                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                  We provides professional roof installation services, ensuring
+                  durable, high-quality roofs tailored to your property’s needs.
+                </p>
+              </div>
+              <div className="mb-9">
+                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                  Roof repairs
+                </h3>
+                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                  We offers expert roof repair services to fix leaks, cracks,
+                  and damages, ensuring a durable and well-maintained roof.
+                </p>
+              </div>
+              <div className="mb-9">
+                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                  Roof Painting
+                </h3>
+                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                  We are one of the best roof painting service provided by
+                  qualified and experienced tradesmen.
+                </p>
+              </div>
+              <div className="mb-9">
+                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                   Comprehensive Cleaning
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
@@ -46,22 +73,14 @@ const RoofingDetails = () => {
                   durable roof.
                 </p>
               </div>
-              <div className="mb-9">
+
+              <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Water Management
+                  Roof Waterproofing
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                   Effective solutions to prevent water buildup, leaks, and
                   drainage issues.
-                </p>
-              </div>
-              <div className="mb-1">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Proactive Maintenance
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Regular inspections and upkeep to extend your roof&apos;s
-                  lifespan and ensure optimal performance.
                 </p>
               </div>
             </div>

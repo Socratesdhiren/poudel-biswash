@@ -5,11 +5,9 @@ import Link from "next/link";
 import menuData from "../Header/menuData";
 
 const servicesList = menuData
-  ?.filter((menuItems) => menuItems?.title === "Services")
+  ?.filter((menuItems) => menuItems?.title === "Cleaning")
   ?.find((data) => data?.submenu)
   ?.submenu?.map((item) => ({ id: "/services", label: item?.title }));
-
-console.log(servicesList, "servicesList");
 
 const Footer = () => {
   return (
@@ -180,6 +178,31 @@ const Footer = () => {
                       </Link>
                     </li>
                   ))}
+                  <li>
+                    <Link
+                      href="/roofing"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Roof restoration
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/hire"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Labor hire
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link
+                      href="/supplies"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Supplies
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </div>
