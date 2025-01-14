@@ -1,5 +1,5 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
-import RoofingDetails from "@/components/Roofing/RoofingDetails";
+import RoofingDetails from "@/components/Roofing/RoofingServices";
 // import Blog from "@/components/Blog";
 import Services from "@/components/Services";
 import Hygiene from "@/components/Hygiene";

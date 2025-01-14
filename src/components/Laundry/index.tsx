@@ -2,7 +2,7 @@
 import { useState } from "react";
 // import NewsLatterBox from "./NewsLatterBox";
 
-const Contact = () => {
+const Laundry = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -39,7 +39,7 @@ const Contact = () => {
               "
             >
               <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
-                Need Help? Open a Ticket
+                Contact Us
               </h2>
               <p className="mb-12 text-base font-medium text-body-color">
                 Our support team will get back to you ASAP via email.
@@ -120,4 +120,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Laundry;

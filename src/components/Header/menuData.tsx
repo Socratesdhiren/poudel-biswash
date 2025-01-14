@@ -60,9 +60,52 @@ const menuData: Menu[] = [
   },
   {
     id: 98,
-    title: "Roof Restoration",
-    path: "/roofing",
+    title: "Roof services",
     newTab: false,
+    submenu: [
+      {
+        id: 51,
+        title: "Roof Installation",
+        path: "/roofing/install",
+        newTab: false,
+      },
+      {
+        id: 52,
+        title: "Roof Painting",
+        path: "/roofing/painting",
+        newTab: false,
+      },
+      {
+        id: 54,
+        title: "Roof Waterproofing",
+        path: "/roofing/waterproof",
+        newTab: false,
+      },
+      {
+        id: 55,
+        title: "Colorbond Roofing",
+        path: "/roofing/color",
+        newTab: false,
+      },
+      {
+        id: 56,
+        title: "Modern Roofing",
+        path: "/roofing/modern",
+        newTab: false,
+      },
+      {
+        id: 57,
+        title: "Tile Roofing",
+        path: "/roofing/tile",
+        newTab: false,
+      },
+      {
+        id: 58,
+        title: "Leaking Roof Repairs",
+        path: "/roofing/repair",
+        newTab: false,
+      },
+    ],
   },
 
   {

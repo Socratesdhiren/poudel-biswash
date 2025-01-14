@@ -168,16 +168,24 @@ const Footer = () => {
                   Services
                 </h2>
                 <ul>
-                  {servicesList?.map((service) => (
-                    <li key={service?.label}>
-                      <Link
-                        href="/services"
-                        className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                      >
-                        {service?.label}
-                      </Link>
-                    </li>
-                  ))}
+                  <li>
+                    <Link
+                      href="/services"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Cleaning services
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link
+                      href="/strata"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Strata services
+                    </Link>
+                  </li>
+
                   <li>
                     <Link
                       href="/roofing"
@@ -197,7 +205,7 @@ const Footer = () => {
 
                   <li>
                     <Link
-                      href="/supplies"
+                      href="/hygiene"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Supplies

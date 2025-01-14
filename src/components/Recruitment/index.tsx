@@ -2,7 +2,7 @@
 import { useState } from "react";
 // import NewsLatterBox from "./NewsLatterBox";
 
-const Contact = () => {
+const Recruitment = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -120,4 +120,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Recruitment;

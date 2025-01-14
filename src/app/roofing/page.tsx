@@ -1,5 +1,5 @@
 import AboutSectionOne from "@/components/Roofing/AboutSectionOne";
-import RoofingDetails from "@/components/Roofing/RoofingDetails";
+import RoofingDetails from "@/components/Roofing/RoofingServices";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 
 import { Metadata } from "next";
@@ -22,7 +22,7 @@ const RoofingPage = () => {
     <>
       <Breadcrumb
         pageName="Roofing services"
-        description="BM Start offers expert roof cleaning, maintenance, and water management services to safeguard and enhance your property. We remove debris, moss, and dirt to prevent water buildup and damage, ensuring your roof remains durable and functional. Our team focuses on effective water control to eliminate leaks and drainage problems."
+        description="BM Start provides expert roof cleaning, maintenance, and water management to protect your property. We remove debris and prevent water damage, ensuring a durable, leak-free roof."
       />
       <RoofingDetails />
     </>
