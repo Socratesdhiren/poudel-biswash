@@ -1,7 +1,7 @@
-// "use client";
 
 import { Manrope } from "next/font/google";
 import { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react"
 
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
@@ -44,6 +44,9 @@ export default function RootLayout({
           <Footer />
           <ScrollToTop />
         </Providers>
+
+        <Analytics />
+
 
         <Script id="clarity-script" strategy="afterInteractive">
           {`
