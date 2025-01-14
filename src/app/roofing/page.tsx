@@ -7,11 +7,11 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Roofing - BM Start",
   description:
-    "Learn more about BM Start and our professional cleaning services.",
+    "Learn more about BM Start and our professional cleaning and roofing services.",
   openGraph: {
     title: "About BM Start",
     description:
-      "Discover our journey and mission to provide the best cleaning services.",
+      "Discover our journey and mission to provide the best cleaning and roofing services.",
     url: "https://bmstart.com/about",
     images: [{ url: "https://bmstart.com/images/services/hotelabout-01.jpg" }],
   },

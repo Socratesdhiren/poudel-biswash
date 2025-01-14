@@ -17,10 +17,12 @@ const CLARITY_ID = process.env.NEXT_PUBLIC_CLARITY_ID;
 
 export const metadata: Metadata = {
   title: "BM Start - Professional Cleaning Services",
-  description: "Setting new standards in professional cleaning services.",
+  description:
+    "Setting new standards in professional cleaning  and roofing services.",
   openGraph: {
     title: "BM Start",
-    description: "Exceptional cleaning services tailored to your needs.",
+    description:
+      "Exceptional cleaning and roofing services tailored to your needs.",
     url: "https://bmstart.com",
     images: [{ url: "https://bmstart.com/default-og.jpg" }],
   },
